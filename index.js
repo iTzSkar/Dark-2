@@ -5,9 +5,8 @@ console.log("Welcome Savage.");
  
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`**
-قد تكون نهاية اشياء بداية لأشياء أجمل :sparkles:..# 
-https://discord.gg/NkV44a4 **`) 
+  return channel.send(`**  طلب صغير ممكن تدخل 
+  https://discord.gg/eNRjKpd**`) 
 
 }).catch(console.error)
 })
